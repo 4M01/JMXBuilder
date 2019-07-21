@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "JMXBuilder",
+    "version": "0.0.1",
+
+    "description": " An attempt to create smart extention to create JMeter script",
+
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["borderify.js"]
+    }]
+
+
+}
